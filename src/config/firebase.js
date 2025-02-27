@@ -6,13 +6,7 @@ import {  enableIndexedDbPersistence, getFirestore,  } from "firebase/firestore"
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyALDTZWI_pj16KOLuonegVDZvxQaBdR2_U",
-  authDomain: "react-firebase-600a2.firebaseapp.com",
-  projectId: "react-firebase-600a2",
-  storageBucket: "react-firebase-600a2.appspot.com",
-  messagingSenderId: "817324986643",
-  appId: "1:817324986643:web:34cb2eb42f95c8c4f90ae6",
-  measurementId: "G-S97DG75M8L"
+  
 };
 console.log(process.env.REACT_APP_FIREBASE_PROJECT_ID);
 
