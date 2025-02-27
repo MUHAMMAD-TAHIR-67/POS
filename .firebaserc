@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "react-firebase-7",
+    "deploy": "react-firebase-600a2",
+    "y": "react-firebase-600a2"
+  },
+  "targets": {},
+  "etags": {}
+}

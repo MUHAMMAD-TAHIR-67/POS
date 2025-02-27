@@ -1,0 +1,24 @@
+@import "./scss/bootstrap";
+@import "./scss/mixins";
+@import "./scss/auth";
+@import "./scss/sidebar";
+@import "./scss/screen-loader";
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.card.card-shadow {
+    border: none !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+}
+
+.shadow-none {
+    box-shadow: none !important;
+}
